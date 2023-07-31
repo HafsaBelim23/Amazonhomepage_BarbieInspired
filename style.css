@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #FDD1E1 ;
+    color: white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Barbiecart-logo.png");
+    height: 65px;
+    width: 100%;
+    background-size: cover;
+    align-self: center;
+} 
+
+.border{
+    border: 1.5px solid transparent;
+    height: auto;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+
+/** box 2**/
+.add-first{
+    color: #c10595;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+
+.add-sec{
+    font-size: 1rem;
+    color: #fb07c2;
+    margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+
+/** box 3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eebad5;
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search-select{
+    color: #f1b5d8;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(242, 162, 199);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+
+.nav-search:hover{
+    border: 2px solid magenta;
+
+}
+
+/**box 4**/
+
+.nav-signin{
+    color: #e627a6;
+}
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+
+.nav-return{
+    color: #e627a6;
+}
+
+
+/**box 5**/
+
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700 ;
+}
+
+/**panel**/
+.panel{
+    height: 40px;
+    background-color: rgb(121, 185, 241);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opts p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opts{
+    width: 70%;
+    font-size: o.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+}
+
+/**hero-section**/
+.hero-section{
+    background-image: url(hero_section.png);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center; /** for vertically center**/
+    justify-content: center; /** for horizontally center**/
+    font-size: 0.85rem; /** or 14px**/
+    margin-bottom: 35px;
+    
+
+    }
+
+.hero-msg a{
+    color: rgb(19, 112, 219);
+}
+
+
+/**buying-section**/
+.buying-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(241, 199, 230);
+}
+
+.box{
+    /**border: 2px solid black;**/
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-img{
+    height:370px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: rgb(19, 112, 219);
+}
+
+/**fotter**/
+footer{
+    margin-top: 15px;   
+}
+
+.foot-panel1{
+    
+    background-color: #a781dc;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #a26cef;
+    color: white;
+    height: 300px;
+    display:flex ;
+    justify-content: space-evenly;
+    
+}
+
+.foot-panel2 ul{
+    margin-top: 20px;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+
+.foot-panel3{
+    background-color: #a26cef;
+    color: white;
+    border-top: 0.5px solid rgb(221, 117, 195);
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Barbiecart-logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+    
+}
+
+.foot-panel4{
+    background-color: #FDD1E1 ;
+    color: white;
+    height: 80px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
